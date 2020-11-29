@@ -401,6 +401,9 @@ body {
     right: 0 !important;
     transform: translate3d(0px, 27px, 0px) !important;
   }
+  .header__nav {
+    position: relative;
+  }
 
   .tab-pane .col-lg-6:nth-of-type(2){
     margin-top: -40px;
@@ -447,6 +450,15 @@ body {
 @media(max-width: 400px) {
   .collapse__body {
     text-align: center;
+  }
+  .logo__work{
+    display: block;
+    padding: 15px ;
+  }
+}
+@media(max-width: 290px){
+  .logo__work{
+    padding:10px 0 0 0 ;
   }
 }
 
